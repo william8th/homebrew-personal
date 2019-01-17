@@ -10,6 +10,7 @@ class Zeal < Formula
 
   depends_on "cmake" => :build
   depends_on "qt"
+  depends_on "OSGeo/homebrew-osgeo4mac/qt5-webkit"
   depends_on "libarchive"
 
   patch :DATA
